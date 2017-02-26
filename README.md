@@ -1,6 +1,6 @@
 # Netflix-MapReduce
----
-# Instruction to run jar
+
+## Instruction to run jar
 
 1. Get list of movie ratings
 
