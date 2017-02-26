@@ -3,9 +3,9 @@
 ## Instruction to run jar
 
 1. Get list of movie ratings
-
-`hadoop jar Netflix-MapReduce-0.0.1-SNAPSHOT.jar edu.cpp.cs499.MovieRatings.MovieRatingsDriver TrainingRatings.txt movieOutput`
-
+```sh
+hadoop jar Netflix-MapReduce-0.0.1-SNAPSHOT.jar edu.cpp.cs499.MovieRatings.MovieRatingsDriver TrainingRatings.txt movieOutput`
+```
 2. Get top ten movies with title 
 
 `hadoop jar Netflix-MapReduce-0.0.1-SNAPSHOT.jar edu.cpp.cs499.TopTenMovies.TopTenMovies output/part-r-00000 movie_titles.txt movieOutput/toptenMovies.txt`
